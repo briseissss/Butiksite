@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Minimal Butik</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f9f5f7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ffe6ec;
+            padding: 30px;
+            text-align: center;
+            font-size: 2.2rem;
+            color: #b54860;
+            font-weight: bold;
+        }
+
+        nav {
+            background-color: #fce4ec;
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 15px 0;
+            font-size: 1rem;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #b54860;
+            font-weight: bold;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 40px;
+            gap: 30px;
+        }
+
+        .product {
+            background-color: #fff;
+            border: 1px solid #f1d3da;
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+
+        .product img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .product h2 {
+            color: #b54860;
+            font-size: 1.5rem;
+        }
+
+        .product p {
+            font-size: 0.95rem;
+            margin: 5px 0;
+        }
+
+        .product select, .product button {
+            padding: 10px;
+            margin-top: 10px;
+            width: 100%;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .product select {
+            background-color: #fce4ec;
+            color: #b54860;
+        }
+
+        .product button {
+            background-color: #b54860;
+            color: white;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            font-size: 0.95rem;
+            background-color: #ffe6ec;
+            color: #b54860;
+        }
+
+        .contact {
+            margin-top: 15px;
+            font-size: 0.9rem;
+        }
+
+        .contact a {
+            color: #b54860;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>Minimal Butik</header>
+
+<!-- Kategori Menüsü -->
+<nav>
+    <a href="#">Bikini</a>
+    <a href="#">Markamız</a> <!-- Bu kısmı senin istediğin metinle değiştireceksin -->
+</nav>
+
+<div class="container">
+    <!-- Ürün A -->
+    <div class="product">
+        <img src="jpgggggaaa" alt="Ürün A">
+        <!-- BURAYI DEĞİŞTİR: Görsel için kendi ürün fotoğrafını koy -->
+        <h2>Ürün A</h2>
+        <p>Fiyat: 1700 TL</p>
+        <p>Açıklama: Örnek açıklama yazısı. (Burayı ürün bilgileriyle değiştir.)</p>
+        <select>
+            <option>Beden Seçin</option>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+        </select>
+        <a href="https://shopier.com/link-a" target="_blank">
+            <!-- SHOPIER LİNKİ EKLE: link-a kısmına kendi ödeme bağlantını koy -->
+            <button>Satın Al</button>
+        </a>
+    </div>
+
+    <!-- Ürün B -->
+    <div class="product">
+        <img src="jpggbb" alt="Ürün B">
+        <h2>Ürün B</h2>
+        <p>Fiyat: 1700 TL</p>
+        <p>Açıklama: Kumaşı ve kesimiyle yazın favorisi olacak! (Burayı değiştir.)</p>
+        <select>
+            <option>Beden Seçin</option>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+        </select>
+        <a href="https://shopier.com/link-b" target="_blank">
+            <button>Satın Al</button>
+        </a>
+    </div>
+
+    <!-- Ürün C -->
+    <div class="product">
+        <img src="jpgccc" alt="Ürün C">
+        <h2>Ürün C</h2>
+        <p>Fiyat: 1700 TL</p>
+        <p>Açıklama: Modern ve şık tasarımıyla dikkat çeker. (Burayı da dilediğin gibi özelleştir.)</p>
+        <select>
+            <option>Beden Seçin</option>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+        </select>
+        <a href="https://shopier.com/link-c" target="_blank">
+            <button>Satın Al</button>
+        </a>
+    </div>
+</div>
+
+<!-- Footer + İletişim -->
+<footer>
+    Tüm hakları saklıdır. Satın alma işlemleri güvenli şekilde Shopier üzerinden gerçekleştirilir.
+    <div class="contact">
+        İletişim: 
+        <a href="https://www.instagram.com/briseisty" target="_blank">@butik_instagram</a> | 
+        <a href="mailto:bequine.bikini@gmail.com">bequine.bikini@gmail.com</a>
+        <!-- INSTAGRAM ve MAİL adreslerini buradan değiştir -->
+    </div>
+</footer>
+
+</body>
+</html>
